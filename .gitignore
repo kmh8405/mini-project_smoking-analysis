@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+venv/
+
+# OS (Linux 포함)
+*.swp
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Data files (다시 만들 수 있기 때문. git 용량 낭비 방지)
+data/processed/
+
+# Logs
+*.log
